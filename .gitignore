@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode
+DerivedData/
+build/
+**/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Trae 工作区元数据（内部协作数据，不入库）
+.trae/
+.trae-html-share-packages/
+
+# 临时文件
+*.swp
+*~

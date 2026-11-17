@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>秒懂 · 设置</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <img class="lockup" src="logo.png" alt="秒懂，划一下，秒懂" />
+        <p>选中读不懂的词、句子或公式，解释就停在它旁边。请求从扩展后台发出，密钥留在这台浏览器里。</p>
+      </header>
+
+      <section class="panel" aria-labelledby="api-title">
+        <div class="panel-head">
+          <h2 id="api-title">接口</h2>
+          <p>用 OpenAI 兼容的地址。内置 DeepSeek、豆包、千问、Kimi、智谱、MiniMax、文心、混元、星火、阶跃星辰、OpenRouter、硅基流动、OpenAI 等接口。</p>
+        </div>
+        <label>
+          <span>服务商</span>
+          <select id="provider"></select>
+        </label>
+        <label>
+          <span>Base URL</span>
+          <input id="baseUrl" type="url" spellcheck="false" autocomplete="off" placeholder="https://api.example.com/v1" />
+        </label>
+        <label>
+          <span>API Key</span>
+          <span class="key-row">
+            <input id="apiKey" type="password" spellcheck="false" autocomplete="off" placeholder="sk-…" />
+            <button type="button" id="toggleKey">显示</button>
+          </span>
+        </label>
+        <label>
+          <span>模型</span>
+          <input id="model" type="text" spellcheck="false" autocomplete="off" placeholder="模型名" />
+        </label>
+        <p class="callout" id="note"></p>
+        <p class="key-help">获取密钥：<a id="keyLink" href="" target="_blank" rel="noreferrer">打开控制台</a></p>
+        <div class="row">
+          <button type="button" class="primary" id="save">保存</button>
+          <button type="button" id="test">测试连接</button>
+          <button type="button" class="ghost" id="clearKey">清除密钥</button>
+        </div>
+        <p class="status" id="status" role="status"></p>
+      </section>
+
+      <section class="panel" aria-labelledby="ima-title">
+        <div class="panel-head">
+          <h2 id="ima-title">ima 知识库</h2>
+          <p>配置后点卡片上的云上传图标，解释会直接推送到 ima 笔记（可选指定笔记本）。不配置则降级为下载 Markdown 文件。凭证在 <a href="https://ima.qq.com/agent-interface" target="_blank" rel="noreferrer">ima 开放接口页</a> 获取，保存在这台浏览器里。</p>
+        </div>
+        <label>
+          <span>Client ID</span>
+          <input id="imaClientId" type="text" spellcheck="false" autocomplete="off" placeholder="ima 开放接口页获取" />
+        </label>
+        <label>
+          <span>API Key</span>
+          <span class="key-row">
+            <input id="imaApiKey" type="password" spellcheck="false" autocomplete="off" placeholder="ima 开放接口页获取" />
+            <button type="button" id="toggleImaKey">显示</button>
+          </span>
+        </label>
+        <label>
+          <span>接收笔记本</span>
+          <span class="key-row">
+            <select id="imaFolder"><option value="">默认位置</option></select>
+            <button type="button" id="refreshImaFolders">刷新列表</button>
+          </span>
+        </label>
+        <p class="status" id="imaStatus" role="status"></p>
+      </section>
+
+      <section class="panel" aria-labelledby="explain-title">
+        <div class="panel-head">
+          <h2 id="explain-title">解释</h2>
+          <p>默认用简体中文，并按选中文字所在的段落来解释，而不是脱离语境的词典义。</p>
+        </div>
+        <div class="split">
+          <label>
+            <span>输出语言</span>
+            <select id="language"></select>
+          </label>
+          <label>
+            <span>详略</span>
+            <select id="length"></select>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="trigger-title">
+        <div class="panel-head">
+          <h2 id="trigger-title">什么时候出现</h2>
+        </div>
+        <label class="check">
+          <input id="enabled" type="checkbox" />
+          <span>启用秒懂</span>
+        </label>
+        <fieldset>
+          <legend>触发</legend>
+          <label class="check"><input type="radio" name="trigger" value="icon" /><span>先显示「懂」，点一下再解释</span></label>
+          <label class="check"><input type="radio" name="trigger" value="immediate" /><span>松开鼠标就直接解释</span></label>
+        </fieldset>
+        <p class="hint">快捷键 Alt+Shift+E（Mac 上是 Option+Shift+E）。想改键位，打开浏览器的扩展程序快捷键页：<code>chrome://extensions/shortcuts</code>。Esc 关闭卡片，点卡片外面也会关闭，除非先点了图钉。</p>
+      </section>
+
+      <section class="panel" aria-labelledby="block-title">
+        <div class="panel-head">
+          <h2 id="block-title">这些网站上停用</h2>
+          <p>一行一个域名。写 <code>example.com</code> 会连同它的子域名一起停用，<code>*.example.com</code> 同样。以 # 开头的行是注释。</p>
+        </div>
+        <textarea id="blacklist" rows="6" spellcheck="false" placeholder="docs.google.com&#10;mail.google.com&#10;# 银行页面&#10;*.bank.com"></textarea>
+      </section>
+
+      <section class="panel" aria-labelledby="history-title">
+        <div class="panel-head">
+          <h2 id="history-title">最近查过</h2>
+          <p>只存在这台浏览器的本地存储里。导出不会带上 API Key。</p>
+        </div>
+        <div class="row">
+          <button type="button" id="exportMd">导出 Markdown</button>
+          <button type="button" id="exportJson">导出 JSON</button>
+          <button type="button" class="ghost" id="clearHistory">清空</button>
+        </div>
+        <div id="history" class="history"></div>
+      </section>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

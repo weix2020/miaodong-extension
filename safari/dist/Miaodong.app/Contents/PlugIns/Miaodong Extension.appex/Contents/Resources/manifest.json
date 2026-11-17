@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "秒懂",
+  "short_name": "秒懂",
+  "version": "1.0.0",
+  "description": "划一下，秒懂。选中读不懂的词、术语或句子，在原处给出结合上下文的解释。",
+  "minimum_chrome_version": "114",
+  "permissions": ["storage", "contextMenus", "downloads"],
+  "host_permissions": ["http://*/*", "https://*/*", "file://*/*", "https://ima.qq.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "秒懂",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "explain-selection": {
+      "suggested_key": {
+        "default": "Alt+Shift+E",
+        "mac": "Alt+Shift+E"
+      },
+      "description": "用秒懂解释选中的文字"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ]
+}

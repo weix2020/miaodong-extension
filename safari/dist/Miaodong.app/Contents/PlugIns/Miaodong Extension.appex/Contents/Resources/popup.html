@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>秒懂</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon32.png" width="32" height="32" alt="" />
+      <div>
+        <strong>秒懂</strong>
+        <p id="subtitle">划一下，秒懂</p>
+      </div>
+    </header>
+    <label class="check">
+      <input id="enabled" type="checkbox" />
+      <span>在网页上启用</span>
+    </label>
+    <p class="hint">快捷键 Alt+Shift+E。点选区旁的「懂」打开卡片，Esc 关闭。</p>
+    <button type="button" id="options" class="primary">打开设置</button>
+    <h2>最近</h2>
+    <div id="history"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

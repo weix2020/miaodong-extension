@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B29D0E3630AA794A0045E07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29D0E3530AA794A0045E07B /* AppDelegate.swift */; };
+		B29D0E3A30AA794A0045E07B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E3830AA794A0045E07B /* Main.html */; };
+		B29D0E3C30AA794A0045E07B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E3B30AA794A0045E07B /* Icon.png */; };
+		B29D0E3E30AA794A0045E07B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E3D30AA794A0045E07B /* Style.css */; };
+		B29D0E4030AA794A0045E07B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E3F30AA794A0045E07B /* Script.js */; };
+		B29D0E4230AA794A0045E07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29D0E4130AA794A0045E07B /* ViewController.swift */; };
+		B29D0E4530AA794A0045E07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E4330AA794A0045E07B /* Main.storyboard */; };
+		B29D0E4730AA794C0045E07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E4630AA794C0045E07B /* Assets.xcassets */; };
+		B29D0E5430AA794C0045E07B /* MiaodongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29D0E5330AA794C0045E07B /* MiaodongTests.swift */; };
+		B29D0E5E30AA794C0045E07B /* MiaodongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29D0E5D30AA794C0045E07B /* MiaodongUITests.swift */; };
+		B29D0E6030AA794D0045E07B /* MiaodongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29D0E5F30AA794D0045E07B /* MiaodongUITestsLaunchTests.swift */; };
+		B29D0E6630AA794D0045E07B /* Miaodong Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B29D0E6530AA794D0045E07B /* Miaodong Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B29D0E6B30AA794D0045E07B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29D0E6A30AA794D0045E07B /* SafariWebExtensionHandler.swift */; };
+		B29D0E8830AA794D0045E07B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E7E30AA794D0045E07B /* popup.js */; };
+		B29D0E8930AA794D0045E07B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E7F30AA794D0045E07B /* background.js */; };
+		B29D0E8A30AA794D0045E07B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8030AA794D0045E07B /* popup.html */; };
+		B29D0E8B30AA794D0045E07B /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8130AA794D0045E07B /* options.js */; };
+		B29D0E8C30AA794D0045E07B /* icons in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8230AA794D0045E07B /* icons */; };
+		B29D0E8D30AA794D0045E07B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8330AA794D0045E07B /* manifest.json */; };
+		B29D0E8E30AA794D0045E07B /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8430AA794D0045E07B /* options.html */; };
+		B29D0E8F30AA794D0045E07B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8530AA794D0045E07B /* popup.css */; };
+		B29D0E9030AA794D0045E07B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8630AA794D0045E07B /* content.js */; };
+		B29D0E9130AA794D0045E07B /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E8730AA794D0045E07B /* options.css */; };
+		B29D0E9230AA794D0045E07B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B29D0E9330AA794D0045E07B /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B29D0E5030AA794C0045E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29D0E2A30AA794A0045E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B29D0E3130AA794A0045E07B;
+			remoteInfo = Miaodong;
+		};
+		B29D0E5A30AA794C0045E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29D0E2A30AA794A0045E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B29D0E3130AA794A0045E07B;
+			remoteInfo = Miaodong;
+		};
+		B29D0E6730AA794D0045E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29D0E2A30AA794A0045E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B29D0E6430AA794D0045E07B;
+			remoteInfo = "Miaodong Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B29D0E7330AA794D0045E07B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B29D0E6630AA794D0045E07B /* Miaodong Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B29D0E3230AA794A0045E07B /* Miaodong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miaodong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29D0E3530AA794A0045E07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B29D0E3930AA794A0045E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		B29D0E3B30AA794A0045E07B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B29D0E3D30AA794A0045E07B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B29D0E3F30AA794A0045E07B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B29D0E4130AA794A0045E07B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B29D0E4430AA794A0045E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B29D0E4630AA794C0045E07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B29D0E4830AA794C0045E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29D0E4930AA794C0045E07B /* Miaodong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Miaodong.entitlements; sourceTree = "<group>"; };
+		B29D0E4A30AA794C0045E07B /* Miaodong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Miaodong.entitlements; sourceTree = "<group>"; };
+		B29D0E4F30AA794C0045E07B /* MiaodongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiaodongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29D0E5330AA794C0045E07B /* MiaodongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiaodongTests.swift; sourceTree = "<group>"; };
+		B29D0E5930AA794C0045E07B /* MiaodongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiaodongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29D0E5D30AA794C0045E07B /* MiaodongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiaodongUITests.swift; sourceTree = "<group>"; };
+		B29D0E5F30AA794D0045E07B /* MiaodongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiaodongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B29D0E6530AA794D0045E07B /* Miaodong Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Miaodong Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29D0E6A30AA794D0045E07B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B29D0E6C30AA794D0045E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29D0E6D30AA794D0045E07B /* Miaodong_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Miaodong_Extension.entitlements; sourceTree = "<group>"; };
+		B29D0E7E30AA794D0045E07B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		B29D0E7F30AA794D0045E07B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		B29D0E8030AA794D0045E07B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		B29D0E8130AA794D0045E07B /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
+		B29D0E8230AA794D0045E07B /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		B29D0E8330AA794D0045E07B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		B29D0E8430AA794D0045E07B /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		B29D0E8530AA794D0045E07B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		B29D0E8630AA794D0045E07B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		B29D0E8730AA794D0045E07B /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = Resources/options.css; sourceTree = "<group>"; };
+		B29D0E9330AA794D0045E07B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29D0E2F30AA794A0045E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E4C30AA794C0045E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E5630AA794C0045E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E6230AA794D0045E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29D0E2930AA794A0045E07B = {
+			isa = PBXGroup;
+			children = (
+				B29D0E3430AA794A0045E07B /* Miaodong */,
+				B29D0E5230AA794C0045E07B /* MiaodongTests */,
+				B29D0E5C30AA794C0045E07B /* MiaodongUITests */,
+				B29D0E6930AA794D0045E07B /* Miaodong Extension */,
+				B29D0E3330AA794A0045E07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B29D0E3330AA794A0045E07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E3230AA794A0045E07B /* Miaodong.app */,
+				B29D0E4F30AA794C0045E07B /* MiaodongTests.xctest */,
+				B29D0E5930AA794C0045E07B /* MiaodongUITests.xctest */,
+				B29D0E6530AA794D0045E07B /* Miaodong Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29D0E3430AA794A0045E07B /* Miaodong */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E3530AA794A0045E07B /* AppDelegate.swift */,
+				B29D0E4130AA794A0045E07B /* ViewController.swift */,
+				B29D0E4330AA794A0045E07B /* Main.storyboard */,
+				B29D0E4630AA794C0045E07B /* Assets.xcassets */,
+				B29D0E4830AA794C0045E07B /* Info.plist */,
+				B29D0E4930AA794C0045E07B /* Miaodong.entitlements */,
+				B29D0E4A30AA794C0045E07B /* Miaodong.entitlements */,
+				B29D0E3730AA794A0045E07B /* Resources */,
+			);
+			path = Miaodong;
+			sourceTree = "<group>";
+		};
+		B29D0E3730AA794A0045E07B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E3830AA794A0045E07B /* Main.html */,
+				B29D0E3B30AA794A0045E07B /* Icon.png */,
+				B29D0E3D30AA794A0045E07B /* Style.css */,
+				B29D0E3F30AA794A0045E07B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B29D0E5230AA794C0045E07B /* MiaodongTests */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E5330AA794C0045E07B /* MiaodongTests.swift */,
+			);
+			path = MiaodongTests;
+			sourceTree = "<group>";
+		};
+		B29D0E5C30AA794C0045E07B /* MiaodongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E5D30AA794C0045E07B /* MiaodongUITests.swift */,
+				B29D0E5F30AA794D0045E07B /* MiaodongUITestsLaunchTests.swift */,
+			);
+			path = MiaodongUITests;
+			sourceTree = "<group>";
+		};
+		B29D0E6930AA794D0045E07B /* Miaodong Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E7D30AA794D0045E07B /* Resources */,
+				B29D0E6A30AA794D0045E07B /* SafariWebExtensionHandler.swift */,
+				B29D0E6C30AA794D0045E07B /* Info.plist */,
+				B29D0E6D30AA794D0045E07B /* Miaodong_Extension.entitlements */,
+			);
+			path = "Miaodong Extension";
+			sourceTree = "<group>";
+		};
+		B29D0E7D30AA794D0045E07B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B29D0E7E30AA794D0045E07B /* popup.js */,
+				B29D0E7F30AA794D0045E07B /* background.js */,
+				B29D0E8030AA794D0045E07B /* popup.html */,
+				B29D0E8130AA794D0045E07B /* options.js */,
+				B29D0E8230AA794D0045E07B /* icons */,
+				B29D0E8330AA794D0045E07B /* manifest.json */,
+				B29D0E8430AA794D0045E07B /* options.html */,
+				B29D0E8530AA794D0045E07B /* popup.css */,
+				B29D0E8630AA794D0045E07B /* content.js */,
+				B29D0E8730AA794D0045E07B /* options.css */,
+				B29D0E9330AA794D0045E07B /* logo.png */,
+			);
+			name = Resources;
+			path = "Miaodong Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29D0E3130AA794A0045E07B /* Miaodong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29D0E7430AA794D0045E07B /* Build configuration list for PBXNativeTarget "Miaodong" */;
+			buildPhases = (
+				B29D0E2E30AA794A0045E07B /* Sources */,
+				B29D0E2F30AA794A0045E07B /* Frameworks */,
+				B29D0E3030AA794A0045E07B /* Resources */,
+				B29D0E7330AA794D0045E07B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29D0E6830AA794D0045E07B /* PBXTargetDependency */,
+			);
+			name = Miaodong;
+			packageProductDependencies = (
+			);
+			productName = Miaodong;
+			productReference = B29D0E3230AA794A0045E07B /* Miaodong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B29D0E4E30AA794C0045E07B /* MiaodongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29D0E7730AA794D0045E07B /* Build configuration list for PBXNativeTarget "MiaodongTests" */;
+			buildPhases = (
+				B29D0E4B30AA794C0045E07B /* Sources */,
+				B29D0E4C30AA794C0045E07B /* Frameworks */,
+				B29D0E4D30AA794C0045E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29D0E5130AA794C0045E07B /* PBXTargetDependency */,
+			);
+			name = MiaodongTests;
+			packageProductDependencies = (
+			);
+			productName = MiaodongTests;
+			productReference = B29D0E4F30AA794C0045E07B /* MiaodongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B29D0E5830AA794C0045E07B /* MiaodongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29D0E7A30AA794D0045E07B /* Build configuration list for PBXNativeTarget "MiaodongUITests" */;
+			buildPhases = (
+				B29D0E5530AA794C0045E07B /* Sources */,
+				B29D0E5630AA794C0045E07B /* Frameworks */,
+				B29D0E5730AA794C0045E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29D0E5B30AA794C0045E07B /* PBXTargetDependency */,
+			);
+			name = MiaodongUITests;
+			packageProductDependencies = (
+			);
+			productName = MiaodongUITests;
+			productReference = B29D0E5930AA794C0045E07B /* MiaodongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B29D0E6430AA794D0045E07B /* Miaodong Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29D0E7030AA794D0045E07B /* Build configuration list for PBXNativeTarget "Miaodong Extension" */;
+			buildPhases = (
+				B29D0E6130AA794D0045E07B /* Sources */,
+				B29D0E6230AA794D0045E07B /* Frameworks */,
+				B29D0E6330AA794D0045E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Miaodong Extension";
+			packageProductDependencies = (
+			);
+			productName = "Miaodong Extension";
+			productReference = B29D0E6530AA794D0045E07B /* Miaodong Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29D0E2A30AA794A0045E07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B29D0E3130AA794A0045E07B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B29D0E4E30AA794C0045E07B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B29D0E3130AA794A0045E07B;
+					};
+					B29D0E5830AA794C0045E07B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B29D0E3130AA794A0045E07B;
+					};
+					B29D0E6430AA794D0045E07B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = B29D0E2D30AA794A0045E07B /* Build configuration list for PBXProject "Miaodong" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B29D0E2930AA794A0045E07B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B29D0E3330AA794A0045E07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29D0E3130AA794A0045E07B /* Miaodong */,
+				B29D0E4E30AA794C0045E07B /* MiaodongTests */,
+				B29D0E5830AA794C0045E07B /* MiaodongUITests */,
+				B29D0E6430AA794D0045E07B /* Miaodong Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29D0E3030AA794A0045E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29D0E3C30AA794A0045E07B /* Icon.png in Resources */,
+				B29D0E4530AA794A0045E07B /* Main.storyboard in Resources */,
+				B29D0E4030AA794A0045E07B /* Script.js in Resources */,
+				B29D0E3A30AA794A0045E07B /* Main.html in Resources */,
+				B29D0E4730AA794C0045E07B /* Assets.xcassets in Resources */,
+				B29D0E3E30AA794A0045E07B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E4D30AA794C0045E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E5730AA794C0045E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E6330AA794D0045E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29D0E8E30AA794D0045E07B /* options.html in Resources */,
+				B29D0E8930AA794D0045E07B /* background.js in Resources */,
+				B29D0E9130AA794D0045E07B /* options.css in Resources */,
+				B29D0E8B30AA794D0045E07B /* options.js in Resources */,
+				B29D0E8A30AA794D0045E07B /* popup.html in Resources */,
+				B29D0E8F30AA794D0045E07B /* popup.css in Resources */,
+				B29D0E8C30AA794D0045E07B /* icons in Resources */,
+				B29D0E9030AA794D0045E07B /* content.js in Resources */,
+				B29D0E8D30AA794D0045E07B /* manifest.json in Resources */,
+				B29D0E8830AA794D0045E07B /* popup.js in Resources */,
+				B29D0E9230AA794D0045E07B /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29D0E2E30AA794A0045E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29D0E4230AA794A0045E07B /* ViewController.swift in Sources */,
+				B29D0E3630AA794A0045E07B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E4B30AA794C0045E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29D0E5430AA794C0045E07B /* MiaodongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E5530AA794C0045E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29D0E6030AA794D0045E07B /* MiaodongUITestsLaunchTests.swift in Sources */,
+				B29D0E5E30AA794C0045E07B /* MiaodongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29D0E6130AA794D0045E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29D0E6B30AA794D0045E07B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B29D0E5130AA794C0045E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B29D0E3130AA794A0045E07B /* Miaodong */;
+			targetProxy = B29D0E5030AA794C0045E07B /* PBXContainerItemProxy */;
+		};
+		B29D0E5B30AA794C0045E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B29D0E3130AA794A0045E07B /* Miaodong */;
+			targetProxy = B29D0E5A30AA794C0045E07B /* PBXContainerItemProxy */;
+		};
+		B29D0E6830AA794D0045E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B29D0E6430AA794D0045E07B /* Miaodong Extension */;
+			targetProxy = B29D0E6730AA794D0045E07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B29D0E3830AA794A0045E07B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29D0E3930AA794A0045E07B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B29D0E4330AA794A0045E07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29D0E4430AA794A0045E07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B29D0E6E30AA794D0045E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B29D0E6F30AA794D0045E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B29D0E7130AA794D0045E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Miaodong Extension/Miaodong_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Miaodong Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Miaodong Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.Miaodong.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B29D0E7230AA794D0045E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Miaodong Extension/Miaodong_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Miaodong Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Miaodong Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.Miaodong.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B29D0E7530AA794D0045E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Miaodong/Miaodong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Miaodong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Miaodong;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.Miaodong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B29D0E7630AA794D0045E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Miaodong/Miaodong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Miaodong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Miaodong;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.Miaodong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B29D0E7830AA794D0045E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.MiaodongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miaodong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miaodong";
+			};
+			name = Debug;
+		};
+		B29D0E7930AA794D0045E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.MiaodongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miaodong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miaodong";
+			};
+			name = Release;
+		};
+		B29D0E7B30AA794D0045E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.MiaodongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Miaodong;
+			};
+			name = Debug;
+		};
+		B29D0E7C30AA794D0045E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaodong.MiaodongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Miaodong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29D0E2D30AA794A0045E07B /* Build configuration list for PBXProject "Miaodong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29D0E6E30AA794D0045E07B /* Debug */,
+				B29D0E6F30AA794D0045E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29D0E7030AA794D0045E07B /* Build configuration list for PBXNativeTarget "Miaodong Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29D0E7130AA794D0045E07B /* Debug */,
+				B29D0E7230AA794D0045E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29D0E7430AA794D0045E07B /* Build configuration list for PBXNativeTarget "Miaodong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29D0E7530AA794D0045E07B /* Debug */,
+				B29D0E7630AA794D0045E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29D0E7730AA794D0045E07B /* Build configuration list for PBXNativeTarget "MiaodongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29D0E7830AA794D0045E07B /* Debug */,
+				B29D0E7930AA794D0045E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29D0E7A30AA794D0045E07B /* Build configuration list for PBXNativeTarget "MiaodongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29D0E7B30AA794D0045E07B /* Debug */,
+				B29D0E7C30AA794D0045E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29D0E2A30AA794A0045E07B /* Project object */;
+}
